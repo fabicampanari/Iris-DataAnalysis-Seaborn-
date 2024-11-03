@@ -20,3 +20,13 @@ You can install these libraries using pip:
 pip install pandas seaborn matplotlib numpy
 ```
 
+## Introduction
+
+This Jupyter notebook contains various code blocks that perform different tasks for data analysis and visualization. Below, we explain each of the code blocks present in the Seaborniris.ipynb file.
+
+### Importing Libraries
+
+First, we import the necessary libraries for data analysis and visualization.
+
+
+
