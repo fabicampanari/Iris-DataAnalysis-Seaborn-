@@ -45,4 +45,17 @@ We create a sequence of x values ranging from -5 to 5, with 100 equally spaced p
 ```python
 x = np.linspace(-5, 5, 100)
 ```
+<br>
 
+## Calculating Derivatives
+
+We calculate the derivatives of a function f4 at each point in x using two different approaches: a function derivada and a function f4_prime_exato. The results are stored in the lists y2 and _y3, respectively.
+
+
+```python
+y2 = []
+y3 = []
+for xx in x:
+  y2.append(derivada(f4, xx))
+  y3.append(f4_prime_exato(xx))
+```
