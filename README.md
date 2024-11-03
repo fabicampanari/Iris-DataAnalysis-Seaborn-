@@ -59,3 +59,10 @@ for xx in x:
   y2.append(derivada(f4, xx))
   y3.append(f4_prime_exato(xx))
 ```
+
+<br>
+
+## Plotting the Results
+
+We use the matplotlib library to plot the results of the calculated derivatives. The solid line (-) represents the values calculated by the derivada function, while the dashed line (--) represents the values calculated by the f4_prime_exato function.
+
