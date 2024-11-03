@@ -42,6 +42,34 @@ import numpy as np
 
 We create a sequence of x values ranging from -5 to 5, with 100 equally spaced points.
 
+## Loading the Dataset
+
+We load the Iris dataset using the load_iris function from Scikit-learn and convert it into a pandas DataFrame.
+
+```python
+
+# Load the Iris dataset
+iris_data = load_iris()
+
+# Convert to DataFrame
+iris = pd.DataFrame(data=iris_data.data, columns=iris_data.feature_names)
+iris['target'] = iris_data.target
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ```python
 x = np.linspace(-5, 5, 100)
 ```
