@@ -89,7 +89,12 @@ We create a boxplot of the sepal length by species.
 
 
 ```python
-pythinplt.show()
+plt.figure(figsize=(10, 6))
+sns.boxplot(x='target', y='sepal length (cm)', data=iris, color='b')
+plt.title('Boxplot of Sepal Length by Species')
+plt.xlabel('Species')
+plt.ylabel('Sepal Length (cm)')
+plt.show()
 ```
 
 
