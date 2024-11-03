@@ -97,6 +97,19 @@ plt.ylabel('Sepal Length (cm)')
 plt.show()
 ```
 
+<br>
+
+## Exploratory Data Analysis
+
+We perform exploratory data analysis to better understand the features and the distribution of the classes.
+
+Descriptive Statistics
+
+```python
+# Descriptive statistics
+print(iris.describe())
+ ```
+
 
 
 
