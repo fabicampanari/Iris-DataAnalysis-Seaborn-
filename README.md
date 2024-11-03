@@ -36,4 +36,13 @@ import matplotlib.pyplot as plt
 import numpy as np
 ```
 
+<br>
+
+## Generating Data
+
+We create a sequence of x values ranging from -5 to 5, with 100 equally spaced points.
+
+```python
+x = np.linspace(-5, 5, 100)
+```
 
