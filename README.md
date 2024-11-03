@@ -60,7 +60,6 @@ iris['target'] = iris_data.target
 
 We visualize the data using the Seaborn library. First, we configure the style of the plots.
 
-
 ```python
 # Configure the style of the plots
 sns.set(style="whitegrid")
