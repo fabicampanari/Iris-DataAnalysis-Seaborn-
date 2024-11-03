@@ -81,6 +81,17 @@ plt.show()
 ```
 
 
+<br>
+
+## Boxplot
+
+We create a boxplot of the sepal length by species.
+
+
+```python
+pythinplt.show()
+```
+
 
 
 
