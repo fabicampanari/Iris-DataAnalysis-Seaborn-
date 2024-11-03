@@ -187,4 +187,4 @@ To run the notebook, you can use Jupyter Notebook or JupyterLab. Execute the fol
 jupyter notebook
 ```
 
-Open the Seaborniris.ipynb file and run the cells to see the results.
+Open the Seaborniris   .ipynb file and run the cells to see the results.
