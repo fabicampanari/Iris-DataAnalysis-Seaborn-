@@ -1,2 +1,20 @@
-# Iris-DataAnalysis-Seaborn-
-Iris Data Analysis with Seaborn 🌸 . The provided code snippet is a Python script that uses matplotlib to plot the numerical and exact derivatives of a function f4 over a range of values. The script generates a sequence of values x from -5 to 5, calculates the derivatives using two different methods, and then plots the results for comparison.
+
+<!--Header -->
+
+#  <p align="center"> 🌸 Iris Data Analysis with Seaborn 
+
+This repository contains a Jupyter notebook for analyzing the famous Iris dataset using the Seaborn library. The goal is to demonstrate how to load, visualize, and analyze data with Seaborn and pandas.
+
+## Requirements
+
+Make sure you have the following libraries installed:
+
+- pandas
+- seaborn
+- matplotlib
+- numpy
+
+You can install these libraries using pip:
+
+```sh
+pip install pandas seaborn matplotlib numpy
