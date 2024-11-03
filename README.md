@@ -154,3 +154,13 @@ We use the matplotlib library to plot the results of the calculated derivatives.
 plt.plot(x, y2, '-', x, y3, '--')
 plt.show()
 ```
+
+<br>
+
+##Running the Notebook
+
+To run the notebook, you can use Jupyter Notebook or JupyterLab. Execute the following command to start Jupyter Notebook:
+
+```python
+jupyter notebook
+```
