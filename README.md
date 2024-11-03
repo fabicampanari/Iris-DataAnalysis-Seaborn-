@@ -56,6 +56,15 @@ iris = pd.DataFrame(data=iris_data.data, columns=iris_data.feature_names)
 iris['target'] = iris_data.target
 ```
 
+## Visualizing the Data
+
+We visualize the data using the Seaborn library. First, we configure the style of the plots.
+
+
+```python
+# Configure the style of the plots
+sns.set(style="whitegrid")
+```
 
 
 
