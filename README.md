@@ -110,15 +110,12 @@ Descriptive Statistics
 print(iris.describe())
  ```
 
+## Class Countv
 
-
-
-
-
-
-
-
-
+```python
+# Count of each class
+print(iris['target'].value_counts())
+````
 
 <br>
 
@@ -152,3 +149,8 @@ for xx in x:
 
 We use the matplotlib library to plot the results of the calculated derivatives. The solid line (-) represents the values calculated by the derivada function, while the dashed line (--) represents the values calculated by the f4_prime_exato function.
 
+
+```python
+plt.plot(x, y2, '-', x, y3, '--')
+plt.show()
+```
