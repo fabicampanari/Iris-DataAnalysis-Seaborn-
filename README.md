@@ -28,7 +28,7 @@ This Jupyter notebook contains various code blocks that perform different tasks 
 
 First, we import the necessary libraries for data analysis and visualization.
 
-```
+```python
 import pandas as pd
 from sklearn.datasets import load_iris
 import seaborn as sns
