@@ -67,6 +67,25 @@ We visualize the data using the Seaborn library. First, we configure the style o
 sns.set(style="whitegrid")
 ```
 
+Exemple:
+
+```python
+sns.pairplot(df, hue='target')
+plt.show()
+```
+
+A tradução para o inglês da frase seria: "The code above generates the following plot.
+
+
+
+
+
+
+
+
+
+
+
 <br>
 
 ## Pairplot
@@ -164,3 +183,5 @@ To run the notebook, you can use Jupyter Notebook or JupyterLab. Execute the fol
 ```python
 jupyter notebook
 ```
+
+Open the Seaborniris.ipynb file and run the cells to see the results.
