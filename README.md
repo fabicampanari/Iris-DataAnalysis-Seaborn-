@@ -67,6 +67,18 @@ We visualize the data using the Seaborn library. First, we configure the style o
 sns.set(style="whitegrid")
 ```
 
+<br>
+
+## Pairplot
+
+We visualize the distribution of the features with a pairplot.
+
+We visualize the data using the Seaborn library. First, we configure the style of the plots.
+
+```python
+sns.pairplot(iris, hue='target')
+plt.show()
+```
 
 
 
