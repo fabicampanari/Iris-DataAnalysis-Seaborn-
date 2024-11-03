@@ -76,7 +76,8 @@ plt.show()
 
 A tradução para o inglês da frase seria: "The code above generates the following plot.
 
-
+ <p align="center">
+<img src=""/>
 
 
 
