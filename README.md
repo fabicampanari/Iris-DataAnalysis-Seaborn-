@@ -76,7 +76,6 @@ sns.pairplot(df, hue='target')
 plt.show()
 ```
 
-A tradução para o inglês da frase seria: "The code above generates the following plot.
 
  <p align="center">
 <img src="https://github.com/user-attachments/assets/479b6f82-0880-4f32-817f-f963131c5e65"/>
