@@ -15,11 +15,16 @@ Make sure you have the following libraries installed:
 - seaborn
 - matplotlib
 - numpy
+- scikitlearn
 
 You can install these libraries using pip:
 
 ```sh
-pip install pandas seaborn matplotlib numpy
+pip install pandas  
+pip install seaborn  
+pip install matplotlib  
+pip install numpy  
+pip install scikit-learn
 ```
 
 ## Introduction
@@ -31,11 +36,20 @@ This Jupyter notebook contains various code blocks that perform different tasks 
 First, we import the necessary libraries for data analysis and visualization.
 
 ```python
+# For working with DataFrames and data manipulation  
 import pandas as pd
-from sklearn.datasets import load_iris
+
+# For statistical visualizations    
 import seaborn as sns
+
+ # For creating plots    
 import matplotlib.pyplot as plt
+
+# For numerical operations 
 import numpy as np
+
+# To access datasets and tools from scikit-learn      
+from sklearn import datasets  \
 ```
 
 <br>
